@@ -39,6 +39,12 @@ sources:
         description: 'inneholder informasjon om personer som er ikke skjemet, bl.a fk_person1, off_id'
       - name: DIM_PERSON
 
+  - name: fam_bt
+    schema: dvh_fam_bt
+    tables:
+      - name: fam_bt_barn
+        description: 'inneholder informasjon om brukere og barn, fodsel_aar, kjonn, fodsel_aar_barn, kjonn_barn'
+
   - name: kode_verk
     schema: dt_kodeverk
     tables:
